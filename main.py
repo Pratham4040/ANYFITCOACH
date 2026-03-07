@@ -1,7 +1,7 @@
-"""
-FastAPI Backend for AI Fitness Coach
-Provides endpoints for exercise video processing and management.
-"""
+
+#FastAPI Backend for AI Fitness Coach
+#Provides endpoints for exercise video processing and management.
+
 
 from fastapi import FastAPI, File, UploadFile, HTTPException, Form
 from fastapi.middleware.cors import CORSMiddleware

@@ -2,8 +2,8 @@ import cv2
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
-from mediapipe.tasks.python.vision import drawing_utils
-from mediapipe.tasks.python.vision import drawing_styles
+drawing_utils = mp.solutions.drawing_utils
+drawing_styles = mp.solutions.drawing_styles
 import time
 model_path = ".\models\pose_landmarker_heavy (1).task"
 BaseOptions = mp.tasks.BaseOptions
