@@ -158,7 +158,8 @@ async def process_exercise(
         "success": True,
         "exercise_name": safe_name,
         "frames": result["frames"],
-        "angles": result["angles"]
+        "angles": result["angles"],
+        "cycle_info": result.get("cycle_info")
     }
 
 
