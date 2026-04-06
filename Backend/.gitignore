@@ -1,4 +1,6 @@
 venv/
+anyfit_venv/
+.anyfit_venv/
 .venv/
 __pycache__/
 *.pyc
